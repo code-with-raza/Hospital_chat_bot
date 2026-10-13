@@ -1,0 +1,19 @@
+.env
+**/.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+.pytest_cache/
+*.tmp
+*.tsbuildinfo
+
+# Local patient and appointment records must stay private.
+backend/app/data/patients.json
+backend/app/data/appointments.json
+
+# Rebuildable local vector indexes.
+backend/app/data/chroma/
+app/data/chroma/
